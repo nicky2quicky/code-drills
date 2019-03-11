@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+/* This ensures that there is no whitespace surrounding our content. Comment this out or delete it, and you may see some unwelcome whitespace 😖. The * means everything. the ::after and ::before are pseudo elements, we'll cover these later in class */
+  margin: 0;
+  padding: 0;
+
+  /* This is for our anchor (<a>) tag. It makes it so that there is a scrolling effect when we navigate to other parts of our page */
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  /* rgb stands for red, green, blue using a combination of these three colors, you can make ANY color. Play around with th numbers a little bit! */
+  background-color: rgb(233, 56, 25);
+  position: relative;
+}
+
+.main2{
+  background-color: greenyellow;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.link {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.son1{
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.son2{
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.daughter1{
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.daughter2{
+  width: 100px;
+  height: 100px;
+  background-color: tan;
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
